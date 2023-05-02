@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="SemiColonWeb">
+	<meta name="description" content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+    
+   <!-- Bootstrap link -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   
+
+	<!-- Font Imports -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;600&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+
+	
+	<!-- Core Style -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+	<link rel="stylesheet" href="demos/real-estate/css/font-icons.css">
+
+	<!-- Plugins/Components CSS -->
+	<link rel="stylesheet" href="css/components/bs-select.css">
+	<link rel="stylesheet" href="css/components/bs-switches.css">
+	<link rel="stylesheet" href="css/components/ion.rangeslider.css">
+
+	<!-- Niche Demos -->
+	<link rel="stylesheet" href="demos/yoga/yoga.css">
+   
+	<link rel="stylesheet" href="demos/real-estate/real-estate.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+	<!-- Document Title
+	============================================= -->
+	<title>document</title>
+
+</head>
+
+<body class="stretched side-push-panel" style="background-color: white;">
+
+	<div id="side-panel">
+		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="bi-x-lg"></i></a></div>
+
+		<div class="side-panel-wrap">
+			<div class="widget">
+
+				<h4 class="fw-normal">Login with Social Profiles</h4>
+
+				<a href="#" class="button button-rounded fw-normal w-100 text-center ms-0 bg-facebook">Facebook</a>
+				<a href="#" class="button button-rounded fw-normal w-100 text-center ms-0 bg-google">Google</a>
+
+				<div class="line"></div>
+
+				<h4 class="fw-normal">Existing Account?</h4>
+
+				<form id="login-form" name="row mb-0" class="mb-0" action="#" method="post">
+
+					<div class="col-12 form-group">
+						<label for="login-form-username" class="fw-normal">Username:</label>
+						<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control">
+					</div>
+
+					<div class="col-12 form-group">
+						<label for="login-form-password" class="fw-normal">Password:</label>
+						<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control">
+					</div>
+
+					<div class="col-12 form-group">
+						<div class="d-flex justify-content-between">
+							<button class="button button-rounded fw-normal m-0" id="login-form-submit" name="login-form-submit" value="login">Login</button>
+							<a href="#">Forgot Password?</a>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Document Wrapper
+	============================================= -->
+	 <div id="wrapper">
+
+		<!-- Top Bar
+		============================================= -->
+		<div id="top-bar" class="transparent-topbar border-bottom-0">
+			<div class="container">
+
+				<div class="row justify-content-between">
+
+					<div class="col-12 col-md-auto">
+
+						<!-- Top Links
+						============================================= -->
+						<div class="top-links">
+							<ul class="top-links-container">
+								<li class="top-links-item d-md-none d-lg-block"><a href="#"><i class="fa-solid fa-phone"></i> +27 80 123 7890</a></li>
+								<li class="top-links-item"><a href="#"><i class="bi-download"></i> Download App</a></li>
+								<!-- <li class="top-links-item top-bar-highlight"><a href="#">Sell/Rent your Property</a>
+									<div class="top-links-section" style="font-size: 14px;">
+										Genuine Clients, 100% Trust Assurance and Lowest Fees on the Market. <a href="#" class="more-link font-secondary" style="border-bottom-style: dotted;">Learn More &rarr;</a>
+									</div>
+								</li> -->
+								<li class="top-links-item"><a href="#" class="side-panel-trigger">Login</a></li>
+							</ul>
+						</div><!-- .top-links end -->
+
+					</div>
+				</div>
+
+			</div>
+		</div><!-- #top-bar end -->
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header dark header-size-md" data-sticky-shrink="false">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html">
+								<span class="fw-light text-uppercase" style="font-size: 18px; letter-spacing: 10px; color:white; padding-top: 0%;">Makeovers</span>
+					
+							</a>
+						</div><!-- #logo end -->
+
+						<div class="primary-menu-trigger">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu with-arrows">
+
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link" href="#Home"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#about"><div>About Us</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="#services"><div>Services</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#how"><div>How It Works</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#signup-quote"><div>Sign up</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#signup-quote"><div>Get a quote</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="#signup-quote"><div>For Pros</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="#footer"><div>Contact</div></a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Hero Slider
+		============================================= -->
+		<section id="slider" class="slider-element min-vh-60 min-vh-md-100 dark include-header include-topbar">
+			<div class="slider-inner">
+
+				<div id="Home" class="fslider h-100 position-absolute" data-speed="3000" data-pause="7500" data-animation="fade" data-arrows="false" data-pagi="false" style="background-color: #333;">
+					<div class="flexslider">
+						<div class="slider-wrap">
+							<div class="slide" style="background: url('demos/real-estate/images/hero/3.jpg') center center; background-size: cover;"></div>
+
+							<div class="slide" style="background: url('demos/real-estate/images/hero/4.jpg') center center; background-size: cover;"></div>
+
+							<div class="slide" style="background: url('demos/real-estate/images/hero/5.jpg') center center; background-size: cover;"></div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="vertical-middle">
+					<div class="container text-center">
+						<div class="emphasis-title m-0">
+							<h1>Any job. Any size.</h1>
+							<span class="fw-light text-uppercase" style="font-size: 18px; letter-spacing: 10px; color:white; padding-top: 0%;">Let's get you connected to<br>a vetted pro in your area.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-wrap">
+					<div class="video-overlay real-estate-video-overlay"></div>
+				</div>
+
+			</div>
+		</section><!-- #slider end -->
+
+		<!-- Search Bar- Seach for Services------------------------------------ -->
+
+		<div class="tabs advanced-real-estate-tabs" >
+
+			<div class="container">
+				<ul class="nav canvas-tabs tabs nav-tabs" style="--bs-nav-tabs-border-width: 0px">
+					<li class="nav-item"><a class="nav-link" href="#tab-properties" data-scrollto="#tab-properties" data-offset="133">Search Services</a></li>
+				</ul>
+			</div>
+
+			<div class="tab-container bg-contrast-200">
+				<div class="container">
+					<div class="tab-content" id="tab-properties">
+						<form action="#" method="post" class="mb-0" >
+							<div class="row g-4" style="text-align: center;">
+								
+								<div class="col-lg-4 col-md-6 col-12">
+									<label>Choose a service/trade</label>
+									<select class="selectpicker w-100" multiple data-live-search="true" data-size="6">
+										
+										
+										<optgroup label="ServiceOrTrade">
+											<option value="Electrician">Electrician</option>
+											<option value="Plumber">Plumber</option>
+											<option value="Waterproofing">Waterproofing</option>
+											<option value="ConstructionCompany">Construction Company</option>
+											<option value="GarageDoors">Garage Doors</option>
+											<option value="Architect">Architect</option>
+											<option value="Lighting">Lighting</option>
+											<option value="Wallpaper">Wallpaper</option>
+											<option value="Locksmith">Locksmith</option>
+											<option value="Blinds">Blinds</option>
+											<option value="Landscaping"></option>Landscaping</option>
+											<option value="Roofing">Roofing</option>
+											<option value="Flooring">Flooring</option>
+											<option value="Locksmith">Locksmith</option>
+											<option value="Pool">Pool</option>
+											<option value="Windows">Windows</option>
+											<option value="BurglarBars">Burglar Bars</option>
+											<option value="Doors">Doors</option>
+											<option value="Gates">Gates</option>
+											<option value="CarPorts">Car Port</option>
+										</optgroup>
+									</select>
+								</div>
+                                <div class="col-lg-4 col-md-6 col-12">
+									<label>Choose a province</label>
+									<select class="selectpicker w-100" data-size="6" style="line-height: 30px;">
+										<optgroup label="SA-Provinces">
+											<option value="GP">Gauteng</option>
+											<option value="WC">Western Cape</option>
+											<option value="KZN">KwaZulu Natal</option>
+											<option value="MP">Mpumalanga</option>
+                                            <option value="LP">Limpopo</option>
+                                            <option value="NW">NorthWest</option>
+                                            <option value="NC">Northern Cape</option>
+                                            <option value="EC">Eastern Cape</option>
+                                            <option value="FS">Free State</option>
+										</optgroup>
+									</select>
+                                    
+								</div>
+								<div class="col-lg-4 col-md-6 col-12">
+									<label>Enter a city/town</label>
+                                    <input type="text" class="required form-control mb-2" id="quick-contact-form-name" name="location" value="" placeholder="City/Town">
+								</div>
+								
+								<div class="w-100"></div>
+								<div class="col-lg-4 col-md-6 col-12">
+									<label style="margin-bottom: 20px !important;">Price Range</label>
+									<input class="price-range-slider">
+								</div>
+								<div class="w-100 d-block d-md-none"></div>
+								<div class="col-lg-4 offset-lg-1 col-md-6 col-12">
+									<label style="margin-bottom: 20px !important;">Property Area </label>
+									<input class="area-range-slider">
+								</div>
+								<div class="offset-lg-1 col-lg-2 col-md-12">
+									<button class="button button-3d button-rounded w-100 m-0" style="margin-top: 35px !important;">Search</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<svg class="svg-curve" viewBox="0 0 1463 188.03">
+					<path style="fill:#FFF;" d="M-.5,288.5s297-175,792-97,599,52,671,25v143H-.5Z" transform="translate(0 -171.47)"></svg>
+			</div>
+		</div>
+        
+        <!-- Content
+		============================================= -->
+	 <section id="content">
+
+        <!-- About us -------------->
+        <div id="about" class="section p-0 dark mb-0" style="background-color:#1b2f41ed; min-height: 400px; padding-top: 0px;">
+            <svg viewBox="0 0 1960 206.8" class="bg-white">
+							
+				<path  d="M.5,152.8s498-177,849-150,1031,238,1134,94v110H.5Z" style="fill:#1b2f41ed;"></path>
+			</svg>
+			<div class="container">
+                <div class="row justify-content-between mb-4" style="padding: 20px 0 10px;">
+                    <div class="col-lg-3 col-md-6 offset-lg-1 pt-3">
+                        <a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe" class="play-video ms-3"><i class="bi-play"></i></a>
+                        <h2 class="display-4 fw-bold text-white mt-6">About us</h2>
+                    </div>
+                    <div class="col-lg-8 col-md-6 mb-0 mb-md-5">
+                        <p class="mb-5" style="font-size: 20px;">Welcome to Makeovers. We are a team of professionals who are passionate about connecting home builders with customers. Our mission is to make the home building process more accessible, transparent, and enjoyable for everyone involved.
+
+							We understand that building or renovating a home is one of the biggest investments that people make in their lives, and we want to help them make informed decisions every step of the way. 
+							
+							Our team consists of experienced professionals with a deep understanding of the home building industry. We work with builders who have a proven track record of delivering high-quality homes that meet their clients' needs and exceed their expectations. We take the time to get to know each client's unique needs and preferences so that we can match them with builders who are the best fit for their project.
+							
+							We also believe in transparency and honesty in our dealings. We provide our clients with all the information they need to make informed decisions about their home building project. 
+							
+							Thank you for considering us for your home building needs. We look forward to working with you and helping you achieve your dream home.
+						</p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <svg class="svg-curve" viewBox="0 0 1463 188.03">
+                <path style="fill:#FFF;" d="M-.5,288.5s297-175,792-97,599,52,671,25v143H-.5Z" transform="translate(0 -171.47)"></svg>
+        </div>
+
+       
+
+		<!-- Why choose us 
+		============================================= -->
+	
+			 <div class=" section-yogas mb-0" style="background-color:white; padding: 0px 0">
+				 <h1 style="text-align: center;padding-bottom: 10px; font-size: 40px; color:#1b2f41ed;">Why Choose Us</h1>
+				 <div class="container">
+                     <div class="row">
+
+						<div class="col-md-6 col-lg-4">
+							<div class="card" style="border-top-color: #9DC3E2;background-color:#233f56ed;">
+								<div class="card-body" >
+									<div class="feature-box fbox-plain">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-realestate-my-house" style="color: white;"></i></a>
+										</div>
+										<div class="fbox-content">
+											<h3 style="color: white;">Hassle Free</h3>
+											<p style="color: white;">From connecting you with reputable builders to managing the paperwork, we take care of everything so that you can enjoy a seamless home building experience.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+								<div class="card-body">
+									<div class="feature-box fbox-plain">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-realestate-hammer" style="color: white;"></i></a>
+										</div>
+										<div class="fbox-content">
+											<h3 style="color: white;">Well Constructed</h3>
+											<p style="color: white;">We work with builders who use only the best materials and construction techniques to ensure that your home is well-constructed and meets the highest standards of quality and safety.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-6 col-lg-4" style="margin-top: 30px">
+							<div class="card" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+								<div class="card-body" >
+									<div class="feature-box fbox-plain">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-realestate-garage" style="color: white;"></i></a>
+										</div>
+										<div class="fbox-content">
+											<h3 style="color: white;">Free Utilites</h3>
+											<p style="color: white;">Some our buliding partners offer free utilities, such as solar power, water recycling systems, and energy-efficient appliances, to help our clients save money and reduce their environmental impact..</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+								<div class="card-body">
+									<div class="feature-box fbox-plain">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-realestate-rent" style="color: white;"></i></a>
+										</div>
+										<div class="fbox-content">
+											<h3 style="color: white;">Flexible Rentals</h3>
+											<p style="color: white;">We offer flexible rental options that allow you to live in a dream home while we work on buliding yours. Whether you are looking for a temporary apartment or home, well help you find it.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-6 col-lg-4" style="margin-top: 60px">
+							<div class="card" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+								<div class="card-body" >
+									<div class="feature-box fbox-plain">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-realestate-credit" style="color: white;"></i></a>
+										</div>
+										<div class="fbox-content">
+											<h3 style="color: white;">Easy Financing</h3>
+											<p style="color: white;">We work with a network of lenders who offer easy and flexible financing options to our clients. We take the time to understand your  financial situation and match you with the lender who can offer the best terms for your needs.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card mt-5" style="border-top-color: #9DC3E2;background-color:#142736ed;">
+								<div class="card-body">
+									<div class="feature-box fbox-plain">
+										<div class="fbox-icon">
+											<a href="#"><i class="icon-realestate-doc" style="color: white;"></i></a>
+										</div>
+										<div class="fbox-content">
+											<h3 style="color: white;">Solid Paperwork</h3>
+											<p style="color: white;">We take care of all the legal and administrative details, including permits, contracts, and other paperwork, to ensure that your project is legally sound and protected. 
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					 </div>
+                 </div>
+			</div>
+					
+
+					<!-- Our services -->
+
+			<div id="services" class="section p-0 dark mb-0" style="background-color:#1b2f41ed; min-height: 400px; padding-top: 0px;">
+				<svg viewBox="0 0 1960 206.8" class="bg-white">
+										
+					<path  d="M.5,152.8s498-177,849-150,1031,238,1134,94v110H.5Z" style="fill:#1b2f41ed;"></path>
+				</svg>
+				
+				<div class="container">
+					<h1 style="text-align: center; padding-top: 20px;">Our Services</h1>
+
+					 <!-- Slider -->
+					<div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 40px;">
+						<div class="carousel-indicators">
+						  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+						  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+						</div>
+						<div class="carousel-inner">
+
+							<!-- Slide 1 -->
+							 <div class="carousel-item active" >
+								 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#1b2f41ed"/></svg>
+								 <div class="container">
+								     <div class="carousel-caption">
+			
+										 <p>
+											<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+											  <div class="card card-cover h-400 text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/Carpentar.jpg'); height: 350px;">
+												<div class="h-400 p-5 pb-3 text-white text-shadow-1">
+												   <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
+													<ul class="d-flex list-unstyled mt-auto">
+													
+													     <li class="d-flex align-items-center me-3">
+														     <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+														     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:white; padding-top: 150px;">Carpentors</h3>
+													     </li>
+													
+												    </ul>
+												</div>
+											  </div>
+											</div>
+										 </p>
+									
+									     <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Carpenters</a></p>
+                                     </div>
+								 </div>
+							</div>
+
+						     <!--Slide 2 -->
+						 <div class="carousel-item">
+							<svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							<div class="container">
+								<div class="carousel-caption">
+	   
+									<p>
+									   <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+											<div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/electrician.jpg');height: 350px;">
+												<div class="h-400 p-5 pb-3 text-white text-shadow-1">
+												   <ul class="d-flex list-unstyled mt-auto">
+												   
+													<li class="d-flex align-items-center me-3">
+														<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+														<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:white; padding-top: 100px;">Electricians</h3>
+													</li>
+												   
+												 </ul>
+											 
+										   </div>
+										 </div>
+									   </div>
+									</p>
+							   
+									<p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Electricians</a></p>
+								</div>
+							</div>
+						</div>
+
+						  <!--Slide 3 -->
+
+						  <div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+							     <div class="carousel-caption">
+		
+                                     <p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+											 <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/hanyman.jpg');height: 350px;">
+												<div class="h-400 p-5 pb-3 text-white text-shadow-1">
+													 <ul class="d-flex list-unstyled mt-auto">
+													
+														<li class="d-flex align-items-center me-3">
+															 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+															 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:white; padding-top: 100px;">Handymen</h3>
+														 </li>
+													
+													 </ul>
+											  
+												</div>
+											 </div>
+										 </div>
+									 </p>
+									
+									 <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Handymen</a></p>
+							     </div>
+							 </div>
+						  </div>
+						
+						  <!--Slide 4 -->
+
+						  <div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+							     <div class="carousel-caption">
+		
+									<p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/painters.jpg');height: 350px;">
+											<div class="h-400 p-5 pb-3 text-white text-shadow-1">
+												<ul class="d-flex list-unstyled mt-auto">
+													
+													<li class="d-flex align-items-center me-3">
+														<svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+														<h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: white; padding-top: 100px;">Painters</h3>
+													  </li>
+													
+												</ul> 
+											  
+											</div>
+										  </div>
+										</div>
+									</p>
+								
+								    <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Painters</a></p>
+							     </div>
+							 </div>
+						  </div>
+						
+						  <!--Slide 5 -->
+
+						  <div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+							     <div class="carousel-caption">
+		
+									<p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/plumber.jpg');height: 350px;">
+											<div class="h-400 p-5 pb-3 text-white text-shadow-1">
+												<ul class="d-flex list-unstyled mt-auto">
+													
+													<li class="d-flex align-items-center me-3">
+														 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+														 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:white; padding-top: 100px;">Plumbers</h3>
+													  </li>
+													
+												  </ul>
+											  
+											</div>
+										  </div>
+										</div>
+									</p>
+								
+								     <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Plumbers</a></p>
+							     </div>
+							 </div>
+						  </div>
+						
+						  <!-- Slide 6 -->
+
+						<div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+							     <div class="carousel-caption">
+		
+                                    <p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/hero2.png');height: 350px;">
+											<div class="h-400 p-5 pb-3 text-white text-shadow-1">
+												<ul class="d-flex list-unstyled mt-auto">
+													
+													<li class="d-flex  me-3">
+														 <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+														 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:white; padding-top: 10px; text-align: left;">And <br>many more</h3>
+													  </li>
+													
+												  </ul>
+											  
+											</div>
+										  </div>
+										</div>
+									</p>
+								
+								     <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Search more</a></p>
+							     </div>
+							 </div>
+						 </div>
+						
+                         <!-- Slider arrows -->
+						 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+							 <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+							 <span class="visually-hidden" >Previous</span>
+						 </button>
+						 <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+							 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							 <span class="visually-hidden">Next</span>
+						 </button>
+					    </div>
+				     </div>	
+				</div>
+				<div class="clear"></div>
+				<svg class="svg-curve" viewBox="0 0 1463 188.03">
+					<path style="fill:#FFF;" d="M-.5,288.5s297-175,792-97,599,52,671,25v143H-.5Z" transform="translate(0 -171.47)"></svg>
+			</div>
+			 
+					  <!-- Slider end----------------------------------- -->
+
+					  <!-- Our numbers------------------------------- -->
+
+						<div class="container">
+							 <div class="row col-mb-50">
+									
+									<div class="row align-items-md-stretch">
+										 <div class="col-md-6" >
+										     <div class="h-400 p-5  rounded-3" style="background-image: url('./img/rb3.jpg');height:375px">
+											
+										     </div>
+										 </div>
+										 <div class="col-md-6">
+										     <div class="h-400 p-5  border rounded-3" style="height:375px; background-color:#1b2f41ed;">
+											      <h2 style="text-align: center;" class="text-color">Our numbers</h2>
+											    <div class="tab-pane fade show active" id="realestate-tab-1" role="tabpanel" aria-labelledby="canvas-realestate-tab-1-tab" tabindex="0">
+										
+													<div class="row ">
+														<div class="col-sm-6 col-lg-6 text-center">
+															<div class="counter ls-1 fw-semibold" style="color: #D2D2D2;"><span data-from="100" data-to="1964" data-refresh-interval="50" data-speed="2000"></span></div>
+															<h5 class="text-color">Houses Built</h5>
+														</div>
+			
+														<div class="col-sm-6 col-lg-6 text-center">
+															<div class="counter ls-1 fw-semibold" style="color: #D2D2D2;"><span data-from="100" data-to="4514" data-refresh-interval="50" data-speed="2500"></span></div>
+															<h5 class="text-color">Service Pros</h5>
+														</div>
+													</div>
+									            </div><br>
+											    <button class="btn btn-outline-secondary col-sm-6 col-lg-12 text-center text-color" type="button" >Read more</button>
+										     </div>
+										</div>
+									  </div>
+
+									<div class="row align-items-md-stretch">
+										 <div class="col-md-6">
+											 <div class="h-400 p-5  border rounded-3" style="height:375px;  background-color:#1b2f41ed;">
+											     <h2 style="text-align: center;" class="text-color">Our numbers</h2>
+											     <div class="tab-pane fade show active" id="realestate-tab-1" role="tabpanel" aria-labelledby="canvas-realestate-tab-1-tab" tabindex="0">
+											  
+											         <div class="row " >
+	  
+												        <div class="col-sm-6 col-lg-6 text-center">
+															<div class="counter ls-1 fw-semibold" style="color: #D2D2D2;"><span data-from="100" data-to="11458" data-refresh-interval="50" data-speed="3500"></span></div>
+															<h5 class="text-color">Happy Clients</h5>
+														</div>
+			
+														<div class="col-sm-6 col-lg-6 text-center">
+															<div class="counter ls-1 fw-semibold" style="color: #D2D2D2;"><span data-from="14" data-to="159" data-refresh-interval="15" data-speed="2700"></span></div>
+															<h5 class="text-color">Cities Served</h5>
+														</div>
+											         </div>
+										        </div>
+											    <button class="btn btn-outline-secondary col-sm-6 col-lg-12 text-center text-color" type="button">Read more</button>
+											</div>
+										  </div>
+										<div class="col-md-6">
+										  <div class="h-400 p-5  rounded-3"  style="background-image: url('./img/rb.jpg'); height: 375px;">
+											
+										  </div>
+										</div>										
+									 </div>
+							</div>
+						</div>
+								
+			             <!-- end------------ -->
+
+						 <!-- Customer comments slider -->
+
+						<div class="section p-0 dark mb-0" style="background-color:#1b2f41ed; min-height: 400px; padding-top: 0px;">
+						 <svg viewBox="0 0 1960 206.8" class="bg-white">
+										 
+							 <path  d="M.5,152.8s498-177,849-150,1031,238,1134,94v110H.5Z" style="fill:#1b2f41ed;"></path>
+						 </svg>
+						 <div class="container">
+							 <h1 style="text-align: center; padding-top: 20px;">Customer and Pro Reviews</h1>
+ 
+					  <!-- Slider -->
+					  <div id="myCarousel2" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 50px;">
+						 <div class="carousel-indicators">
+						   <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						   <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						   <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						   <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+						   <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+						   <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+						 </div>
+						 <div class="carousel-inner">
+ 
+							 <!-- Slide 1 -->
+							 <div class="carousel-item active">
+								 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+								 <div class="container">
+								   <div class="carousel-caption">
+			 
+									 <p>
+										 <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+											<img src="img/onkgopotse_200x200.jpg"  class="bd-placeholder-img rounded-circle"  width="140" height="140">
+										    
+                                            <h2 class="fw-normal">Onkgopotse, Morningside</h2>
+                                            <p class="text-color">Makeovers gives me peace of mind. All their pros are vetted so I know I can trust them to come into my home, do a good job and charge a fair price.</p>
+										 </div>
+									 </p>
+									 
+									 <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+								   </div>
+								 </div>
+							   </div>
+ 
+						 <!--Slide 2 -->
+						 <div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+							   <div class="carousel-caption">
+		 
+								 <p>
+									 <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										<img src="img/paulo_200x200.jpg"  class="bd-placeholder-img rounded-circle"  width="140" height="140">
+										<h2 class="fw-normal">Paulo, Killarney</h2>
+										<p class="text-color">I've done several renovations and I wish I found Makeovers earlier. It really takes the hassle out of finding the right people for the job.</p>
+									 </div>
+								 </p>
+								 
+								 <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+							   </div>
+							 </div>
+						   </div>
+ 
+						   <!--Slide 3 -->
+						 <div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+							   <div class="carousel-caption">
+		 
+								 
+								 <p>
+									 <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										<img src="img/karuna_200x193.jpg"  class="bd-placeholder-img rounded-circle"  width="140" height="140">
+										<h2 class="fw-normal">Karuna, Randburg</h2>
+										<p class="text-color">With Makeovers I know I am making an informed choice because I can compare quotes from experienced professionals. It's like having an expert friend by your side.</p>
+									 </div>
+								   </p>
+								 
+								 <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+							   </div>
+							 </div>
+						   </div>
+						   <!--Slide 4 -->
+						 <div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+							   <div class="carousel-caption">
+		 
+								 <p>
+									 <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										<img src="img/regina.jpeg"  class="bd-placeholder-img rounded-circle"  width="140" height="140">
+										<h2 class="fw-normal">Regina, Pretoria</h2>
+										<p class="text-color">I've had bad experience with home renovations in the past because I didn't have the right people for the job. Makeovers came to my rescue and I haven't looked back since.</p>
+									 </div>
+								  </p>
+								 
+								 <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+							   </div>
+							 </div>
+						   </div>
+						   <!--Slide 5 -->
+						 <div class="carousel-item">
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container">
+								 <div class="carousel-caption">
+		 
+									
+ 
+								  <p>
+									 <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										<img src="img/Thabo.png"  class="bd-placeholder-img rounded-circle"  width="140" height="140">
+										<h2 class="fw-normal">Thabo, Durban</h2>
+										<p class="text-color">Makeovers has helped grow my business by connecting me to more clients. I have been able to hire more people and can now take on bigger projects.</p>
+									 </div>
+								 </p>
+								 
+								 <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+							   </div>
+							 </div>
+						   </div>
+						   <!-- Slide 6 -->
+						 <div class="carousel-item"  >
+							 <svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+							 <div class="container" >
+							   <div class="carousel-caption" >
+								 <p>
+								 
+							   
+									 <div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										<img src="img/Ben.jpeg"  class="bd-placeholder-img rounded-circle"  width="140" height="140">
+										<h2 class="fw-normal">Ben, Pietermaritzburg</h2>
+										<p class="text-color">Makeovers has helped me increase my income. I have gotten repeated calls from the same clients and they have recommmended me to their friends and family.</p>
+									 </div>
+								  
+								  </p>
+								  <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+							 
+							 </div>
+						   </div>
+						 </div>
+						 <button class="carousel-control-prev " type="button" data-bs-target="#myCarousel2" data-bs-slide="prev" >
+						   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						   <span class="visually-hidden">Previous</span>
+						 </button>
+						 <button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next" >
+						   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						   <span class="visually-hidden">Next</span>
+						 </button>
+					 </div>
+				 </div>	
+						 </div>
+						 <div class="clear"></div>
+						 <svg class="svg-curve" viewBox="0 0 1463 188.03">
+							 <path style="fill:#FFF;" d="M-.5,288.5s297-175,792-97,599,52,671,25v143H-.5Z" transform="translate(0 -171.47)"></svg>
+					 </div>
+			  
+					   <!-- Slider end----------------------------------- -->
+
+                    <!-- How it works----------------------------------->
+
+					
+							<div id="how" class=" section-yogas mb-0" style="background-color:white; padding: 0px 0">
+								<h1 style="text-align: center;padding-bottom: 10px; color: #1b2f41ed;">How It Works</h1>
+								<div class="container">
+									<div class="row ">
+										<div class="col-md-6 col-lg-4">
+											<div class="card" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+												<div class="card-body" >
+													<i class="bi bi-1-circle number-icons" ></i>
+													<img src="./img/tell_us_icon.svg" width="100px"> <br>
+													<h3  class="text-color">Tell us what you need</h3>
+													<p class="text-color">Answer a few questions about what you need.</p>
+												</div>
+											</div>
+											<div class="card mt-5" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+												<div class="card-body">
+													<i class="bi bi-2-circle number-icons" ></i>
+													<img src="./img/connect_icon.svg"class="mb-3" width="120">
+													<h3  class="text-color">Connect with the right pros</h3>
+													<p  class="text-color">Our smart tech finds the right pros for your job</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-6 col-lg-4" style="margin-top: 30px">
+											<div class="card" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+												<div class="card-body">
+													<i class="bi bi-3-circle number-icons"></i>
+													<img src="./img/compare_icon.svg" class="mb-3" width="120"><br>
+													<h3   class="text-color">Compare quotes</h3>
+													<p  class="text-color">Up to 5 pros will contact you with a quote to meet your specific needs.</p>
+												</div>
+											</div>
+											<div class="card mt-5" style="border-top-color: #9DC3E2;background-color:#1b2f41ed;">
+												<div class="card-body">
+													<i class="bi bi-4-circle number-icons"></i>
+													<img src="./img/hire_icon.svg" class="mb-3" width="100">
+													<h3  style="color: white;">Hire a pro</h3>
+													<p  class="text-color">See reviews and profiles, choose and settle directly with your pro</p>
+												</div>
+											</div>
+										</div>
+				
+										
+				
+										<div class="col-md-6 col-lg-4" style="margin-top: 60px">
+											<div class="card" style="border-top-color:  #9DC3E2;background-color:#1b2f41ed;">
+												<div class="card-body">
+													<i class="bi bi-5-circle number-icons"></i>
+													<img src="./img/done_icon.svg"  class="mb-3" width="100">
+													<h3  class="text-color">Done</h3>
+													<p  class="text-color">Get your job done & review your pro.</p>
+												</div>
+											</div>
+											<div class="card mt-5" style="border-top-color:  #9DC3E2;background-color:#1b2f41ed;">
+												<div class="card-body">
+                                                    <i class="bi bi-6-circle number-icons"></i>
+													<i class="bi bi-emoji-smile" style="font-size: 100px;"></i>
+													<h3   class="text-color">Share and Recommend</h3>
+													<p  class="text-color">Recommend the makeovers app to your friends and family to help them with their own home improvements.</p>
+												</div>
+											</div>
+										</div>
+				
+									</div>
+								 </div>
+							</div>
+						
+				          <!-- How it works end------------------------------- -->
+
+						 <!--Our esteemed projects  ---------------------------------->
+
+
+						 <div class="section p-0 dark mb-0" style="background-color:#1b2f41ed; min-height: 400px; padding-top: 0px;">
+							<svg viewBox="0 0 1960 206.8" class="bg-white">
+											
+								<path  d="M.5,152.8s498-177,849-150,1031,238,1134,94v110H.5Z" style="fill:#1b2f41ed;"></path>
+							</svg>
+							<div class="container">
+								<h1 style="text-align: center; padding-top: 20px;">Our Esteemed Projects</h1>
+	
+						 <!-- Slider -->
+						 <div id="myCarousel3" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 40px;">
+							<div class="carousel-indicators">
+							  <button type="button" data-bs-target="#myCarousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							  <button type="button" data-bs-target="#myCarousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							  <button type="button" data-bs-target="#myCarousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							  <button type="button" data-bs-target="#myCarousel3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+							  <button type="button" data-bs-target="#myCarousel3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+							  <button type="button" data-bs-target="#myCarousel3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+							</div>
+							<div class="carousel-inner">
+	
+								<!-- Slide 1 -->
+								<div class="carousel-item active" >
+									<svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+									<div class="container">
+									  <div class="carousel-caption">
+				
+										<p>
+											<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+											  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/2.jpg'); height: 375px;">
+												<div class=" h-400 p-5 pb-3 text-white text-shadow-1" >
+												  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
+												
+												</div>
+											  </div>
+											</div>
+										</p>
+										
+										<p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+									  </div>
+									</div>
+								  </div>
+	
+							<!--Slide 2 -->
+							<div class="carousel-item">
+								<svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+								<div class="container">
+								  <div class="carousel-caption">
+			
+									<p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/3.jpg'); height: 375px;">
+											<div class=" h-400 p-5 pb-3 text-white text-shadow-1">
+											  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
+											 
+											</div>
+										  </div>
+										</div>
+									</p>
+									
+									<p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+								  </div>
+								</div>
+							  </div>
+	
+							  <!--Slide 3 -->
+							<div class="carousel-item">
+								<svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+								<div class="container">
+								  <div class="carousel-caption">
+			
+									
+									<p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/4.jpg'); height: 375px;">
+											<div class=" h-400 p-5 pb-3 text-white text-shadow-1">
+											  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
+											  
+											</div>
+										  </div>
+										</div>
+									  </p>
+									
+									<p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+								  </div>
+								</div>
+							  </div>
+							  <!--Slide 4 -->
+							<div class="carousel-item">
+								<svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+								<div class="container">
+								  <div class="carousel-caption">
+			
+									<p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/5.jpg'); height: 375px;">
+											<div class="h-400 p-5 pb-3 text-white text-shadow-1">
+											  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
+											  
+											</div>
+										  </div>
+										</div>
+									 </p>
+									
+									<p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+								  </div>
+								</div>
+							  </div>
+							  <!--Slide 5 -->
+							<div class="carousel-item">
+								<svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+								<div class="container">
+									<div class="carousel-caption">
+			
+									   
+	
+									 <p>
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/6.jpg');height: 375px;">
+											<div class="d-flex flex-column h-400 p-5 pb-3 text-white text-shadow-1">
+											  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
+											  
+											</div>
+										  </div>
+										</div>
+									</p>
+									
+									<p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+								  </div>
+								</div>
+							  </div>
+							  <!-- Slide 6 -->
+							<div class="carousel-item"  >
+								<svg class="bd-placeholder-img" width="100%" height="550px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%"  fill="#1b2f41ed"/></svg>
+								<div class="container" >
+								  <div class="carousel-caption" >
+									<p>
+									
+								  
+										<div class="col-lg-6" style="margin-left: auto; margin-right: auto;">
+										  <div class="card card-cover h-400 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/8.jpg');height: 375px;">
+											<div class="d-flex flex-column h-400 p-5 pb-3 text-white text-shadow-1">
+											  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"></h3>
+											  
+											</div>
+										  </div>
+										</div>
+									 
+									 </p>
+									 <p><a class="btn btn-lg btn-secondary" href="#" style="padding-top: opx;">Learn more</a></p>
+								
+								</div>
+							  </div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel3" data-bs-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#myCarousel3" data-bs-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>	
+							</div>
+							<div class="clear"></div>
+							<svg class="svg-curve" viewBox="0 0 1463 188.03">
+								<path style="fill:#FFF;" d="M-.5,288.5s297-175,792-97,599,52,671,25v143H-.5Z" transform="translate(0 -171.47)"></svg>
+						</div>
+				 
+						  <!-- Slider end----------------------------------- -->
+						  <!-- Our esteemed projects end -->
+
+
+                <!-- Choose a trade/ Get a quote -->
+				<div id="signup-quote" class="row align-items-stretch " style="margin-left: auto; margin-right: auto;">
+					
+					<div class="col-lg-4" style="background-color: #E5E5E5;">
+						<div style="padding: 40px; padding-top: 80px;">
+							<h3 class="text-capitalize ls-1 fw-normal" style="color: #142736ed;">Find a pro you can trust</h3>
+
+							<div style="font-size: 15px; line-height: 1.7;">
+								
+								
+
+								<div class="col-lg-6 col-md-6 col-12">
+									<label class="text-capitalize ls-1 fw-normal" style="font-size: 15px; color: #142736ed;">Choose a service or trade</label>
+									<select class="selectpicker w-100" multiple data-live-search="true" data-size="6">
+										
+										
+										<optgroup label="ServiceOrTrade">
+											<option value="Electrician">Electrician</option>
+											<option value="Plumber">Plumber</option>
+											<option value="Waterproofing">Waterproofing</option>
+											<option value="ConstructionCompany">Construction Company</option>
+											<option value="GarageDoors">Garage Doors</option>
+											<option value="Architect">Architect</option>
+											<option value="Lighting">Lighting</option>
+											<option value="Wallpaper">Wallpaper</option>
+											<option value="Locksmith">Locksmith</option>
+											<option value="Blinds">Blinds</option>
+											<option value="Landscaping"></option>Landscaping</option>
+											<option value="Roofing">Roofing</option>
+											<option value="Flooring">Flooring</option>
+											<option value="Locksmith">Painting</option>
+											<option value="Pool">Pool</option>
+											<option value="Windows">Windows</option>
+											<option value="BurglarBars">Burglar Bars</option>
+											<option value="Doors">Doors</option>
+											<option value="Gates">Gates</option>
+											<option value="CarPorts">Car Port</option>
+										</optgroup>
+									</select>
+								</div>
+									
+								
+
+								<div class="clear mt-4"></div>
+
+								<h3 class="text-capitalize ls-1 fw-normal" style="color: #142736ed;">Are you a service pro?</h3>
+
+								<p><a class="btn btn-lg btn-primary" href="#" style="padding-top: opx;">Apply to join</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 bg-color">
+						<div class="col-padding">
+							<div class="quick-contact-widget form-widget dark">
+
+								<h3 class="text-capitalize ls-1 fw-normal">Create an account</h3>
+
+								<div class="form-result"></div>
+
+								<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form mb-0">
+
+									<div class="form-process">
+										<div class="css3-spinner">
+											<div class="css3-spinner-scaler"></div>
+										</div>
+									</div>
+
+									<input type="text" class="required form-control mb-2" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name">
+
+									<input type="email" class="required form-control email mb-2" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address">
+
+									<input type="text" class="required form-control mb-2" id="quick-contact-form-phone" name="quick-contact-form-phone" value="" placeholder="Phone Number ">
+
+									<input type="password" name="user_password" id="userPassword" placeholder="Password"> <br><br>
+
+									<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="">
+									<input type="hidden" name="prefix" value="quick-contact-form-">
+
+									<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-rounded button-light button-white m-0" value="submit">Sign up</button>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4"  style="background-color: #E5E5E5;">
+						<div class="col-padding">
+							<div class="quick-contact-widget form-widget ">
+
+								<h3 class="text-capitalize ls-1 fw-normal">Get a quick quote</h3>
+
+								<div class="form-result"></div>
+
+								<form id="quick-contact-form" name="quick-contact-form" action="include/form.php" method="post" class="quick-contact-form mb-0">
+
+									<div class="form-process">
+										<div class="css3-spinner">
+											<div class="css3-spinner-scaler"></div>
+										</div>
+									</div>
+
+									<input type="text" class="required form-control mb-2" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name">
+
+									<input type="email" class="required form-control email mb-2" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address">
+
+									<input type="text" class="required form-control mb-2" id="quick-contact-form-phone" name="quick-contact-form-phone" value="" placeholder="Phone Number ">
+
+									<textarea class="required form-control mb-2 short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="5" cols="30" placeholder="What are you Looking for? "></textarea>
+
+									<input type="text" class="d-none" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="">
+									<input type="hidden" name="prefix" value="quick-contact-form-">
+
+									<button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="button button-small button-rounded button-light button-white m-0" value="submit">Send Email</button>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+			
+	</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="bg-color dark">
+			
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+					<div class="row">
+
+						<div class="col-lg-3 col-md-3 col-6">
+							<a href="#"><span class="fw-light text-uppercase" style="font-size: 18px; letter-spacing: 10px; color:white; padding-top: 0%;">Makeovers</span>
+							</a>
+							<p class="text-white-50">South Africa's #1 online marketplace for home services.</p>
+						</div>
+
+						<div class="col-lg-2 col-md-3 col-6">
+							<div class="widget">
+
+								<h3 class="ls-0 h5 mb-4">For Customers</h3>
+
+								<ul class="list-unstyled iconlist ms-0">
+									<li class="mb-2"><a href="#signup-quote" class="text-white-50">Get a quote</a></li>
+									<li class="mb-2"><a href="#how" class="text-white-50">How it works</a></li>
+									<li class="mb-2"><a href="#" class="text-white-50">Home tips</a></li>
+									<li class="mb-2"><a href="#" class="text-white-50">Cost guide</a></li>
+									<li class="mb-2"><a href="#" class="text-white-50">All Services</a></li>
+									<li class="mb-2"><a href="#" class="text-white-50">All Pros</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-6">
+							<div class="widget">
+
+								<h3 class="ls-0 h5 mb-4">For Pros</h3>
+
+								<ul class="list-unstyled iconlist ms-0">
+									<li class="mb-2"><a href="#" class="text-white-50">Join as a pro</a></li>
+									<li class="mb-2"><a href="#" class="text-white-50">Login as a pro</a></li>
+								</ul>
+
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-3 col-6">
+							<div class="widget">
+
+								<h3 class="ls-0 h5 mb-4">Contact Us</h3>
+
+								<ul class="list-unstyled iconlist ms-0">
+									<h5>Phone:</h5>
+									<li class="mb-2"><a href="#" class="text-white-50">062 760 0681</a></li>
+									<h5>Email:</h5>
+									<li class="mb-2"><a href="#" class="text-white-50">info@makeovers.com</a></li>
+								</ul>
+
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-4">
+							<div class="widget">
+
+								<h3 class="ls-0 h5 mb-4">About</h3>
+
+								<ul class="list-unstyled iconlist ms-0">
+									<li class="mb-2"><a href="#about" class="text-white-50">About us</a></li>
+									
+								</ul>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" class="text-center dark">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-12">
+							<p class="mb-2 text-white-50">Copyrights &copy; 2023 All Rights Reserved by Makeovers </p>
+							<div class="copyright-links text-white-50"><a href="#" class="text-white-50">Terms of Use</a> / <a href="#" class="text-white-50">Privacy Policy</a></div>
+						</div>
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div> <!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="uil uil-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.bootstrap.js" id="canvas-bootstrap-js"></script>
+	<script src="js/functions.js"></script>
+
+	<!-- Bootstrap Select Plugin -->
+	<script src="js/components/bs-select.js"></script>
+
+	<!-- Bootstrap Switch Plugin -->
+	<script src="js/components/bs-switches.js"></script>
+
+	<!-- Range Slider Plugin -->
+	<script src="js/components/rangeslider.min.js"></script>
+
+	<script>
+		jQuery(document).ready(function(){
+			jQuery(".price-range-slider").ionRangeSlider({
+				type: "double",
+				prefix: "$",
+				min: 200,
+				max: 10000,
+				max_postfix: "+"
+			});
+
+			jQuery(".area-range-slider").ionRangeSlider({
+				type: "double",
+				min: 50,
+				max: 20000,
+				from: 50,
+				to: 20000,
+				postfix: " sqm.",
+				max_postfix: "+"
+			});
+
+			jQuery(".bt-switch").bootstrapSwitch();
+		});
+	</script>
+
+</body>
+</html>
