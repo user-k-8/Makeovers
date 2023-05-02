@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.297" height="62.835" viewBox="0 0 73.297 62.835">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="Group_557" data-name="Group 557" transform="translate(-638.845 -4282.515)">
+    <g id="Group_555" data-name="Group 555" transform="translate(671.323 4285.327)">
+      <path id="Path_325" data-name="Path 325" d="M416.613,306.634l1.017,2.06,2.274.33-1.645,1.6.388,2.264-2.034-1.069-2.034,1.069.388-2.264-1.645-1.6,2.274-.33Z" transform="translate(-413.323 -306.634)"/>
+      <path id="Path_326" data-name="Path 326" d="M420.353,306.634l1.017,2.06,2.274.33-1.645,1.6.388,2.264-2.034-1.069-2.034,1.069.388-2.264-1.645-1.6,2.274-.33Z" transform="translate(-408.503 -306.634)"/>
+      <path id="Path_327" data-name="Path 327" d="M424.092,306.634l1.017,2.06,2.274.33-1.645,1.6.388,2.264-2.034-1.069-2.034,1.069.388-2.264-1.645-1.6,2.274-.33Z" transform="translate(-403.683 -306.634)"/>
+      <path id="Path_328" data-name="Path 328" d="M427.832,306.634l1.017,2.06,2.274.33-1.645,1.6.388,2.264-2.034-1.069-2.034,1.069.388-2.264-1.645-1.6,2.274-.33Z" transform="translate(-398.863 -306.634)"/>
+      <path id="Path_329" data-name="Path 329" d="M431.571,306.634l1.017,2.06,2.274.33-1.645,1.6.388,2.264-2.034-1.069-2.034,1.069.388-2.264-1.645-1.6,2.274-.33Z" transform="translate(-394.043 -306.634)"/>
+    </g>
+    <g id="Group_556" data-name="Group 556" transform="translate(639.364 4283.015)">
+      <path id="Path_330" data-name="Path 330" class="cls-1" d="M452.269,313.552,424.55,341.271,414.179,330.9" transform="translate(-380.26 -295.405)"/>
+      <path id="Path_331" data-name="Path 331" class="cls-1" d="M447.129,324.092a20.7,20.7,0,1,1-5.2-5.541" transform="translate(-386.948 -294.116)"/>
+      <path id="Path_332" data-name="Path 332" class="cls-2" d="M429.008,318.956a18.526,18.526,0,0,0-29.467,8.924,4.213,4.213,0,0,0,4.061,5.393h17.881" transform="translate(-399.36 -293.853)"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" class="cls-2" cx="7.032" cy="7.032" r="7.032" transform="translate(10.869)"/>
+    </g>
+  </g>
+</svg>
